@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1036636746173",
+    "project_id": "zinc-chiller-312516",
+    "storage_bucket": "zinc-chiller-312516.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036636746173:android:98c0b7c62829f5a59ca2d4",
+        "android_client_info": {
+          "package_name": "com.example.login_page"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036636746173-ht4nr9pmrvgf1urg4j0bs61f7u92jk7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXp5HmFz9oMlLCMWvxPgSod3sMVE7CbF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036636746173-ht4nr9pmrvgf1urg4j0bs61f7u92jk7k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
