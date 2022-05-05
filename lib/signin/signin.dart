@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use, non_constant_identifier_names
+
 import 'package:flutter/material.dart';
 import 'package:login_page/constant/constant.dart';
 import 'package:login_page/signup/signup.dart';
@@ -57,7 +59,7 @@ class _HomescreenState extends State<Signin> {
                             color: mFormColor,
                             width: 300,
                             child: TextFormField(
-                              style: TextStyle(color: Colors.white),
+                              style: const TextStyle(color: Colors.white),
                               decoration: InputDecoration(
                                   border: InputBorder.none,
                                   icon: Icon(Icons.email_outlined,
@@ -92,7 +94,7 @@ class _HomescreenState extends State<Signin> {
                             color: mFormColor,
                             width: 300,
                             child: TextFormField(
-                              style: TextStyle(color: Colors.white),
+                              style: const TextStyle(color: Colors.white),
                               obscureText: true,
                               enableSuggestions: false,
                               autocorrect: false,

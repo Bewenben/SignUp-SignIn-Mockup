@@ -50,7 +50,7 @@ class Signup extends StatelessWidget {
                       color: mFormColor,
                       width: 300,
                       child: TextFormField(
-                        style: TextStyle(color: Colors.white),
+                        style: const TextStyle(color: Colors.white),
                         decoration: InputDecoration(
                             border: InputBorder.none,
                             icon: Icon(Icons.person_outline,
@@ -85,7 +85,7 @@ class Signup extends StatelessWidget {
                       color: mFormColor,
                       width: 300,
                       child: TextFormField(
-                        style: TextStyle(color: Colors.white),
+                        style: const TextStyle(color: Colors.white),
                         decoration: InputDecoration(
                             border: InputBorder.none,
                             icon: Icon(Icons.phone_iphone_rounded,
@@ -120,7 +120,7 @@ class Signup extends StatelessWidget {
                       color: mFormColor,
                       width: 300,
                       child: TextFormField(
-                        style: TextStyle(color: Colors.white),
+                        style: const TextStyle(color: Colors.white),
                         decoration: InputDecoration(
                             border: InputBorder.none,
                             icon: Icon(Icons.email_outlined,
@@ -155,7 +155,7 @@ class Signup extends StatelessWidget {
                       color: mFormColor,
                       width: 300,
                       child: TextFormField(
-                        style: TextStyle(color: Colors.white),
+                        style: const TextStyle(color: Colors.white),
                         obscureText: true,
                         enableSuggestions: false,
                         autocorrect: false,
@@ -193,7 +193,7 @@ class Signup extends StatelessWidget {
                       color: mFormColor,
                       width: 300,
                       child: TextFormField(
-                        style: TextStyle(color: Colors.white),
+                        style: const TextStyle(color: Colors.white),
                         obscureText: true,
                         enableSuggestions: false,
                         autocorrect: false,
@@ -207,7 +207,7 @@ class Signup extends StatelessWidget {
                     ),
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 ClipRRect(
