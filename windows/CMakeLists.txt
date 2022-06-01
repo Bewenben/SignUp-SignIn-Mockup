@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(login_page LANGUAGES CXX)
+project(signinuptest LANGUAGES CXX)
 
-set(BINARY_NAME "login_page")
+set(BINARY_NAME "signinuptest")
 
 cmake_policy(SET CMP0063 NEW)
 
