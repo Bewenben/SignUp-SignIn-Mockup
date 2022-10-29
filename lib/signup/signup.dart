@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:login_page/constant/constant.dart';
-import 'package:login_page/signin/signin.dart';
+import 'package:signinuptest/constant/constant.dart';
+import 'package:signinuptest/signin/signin.dart';
 
 
 class Signup extends StatelessWidget {

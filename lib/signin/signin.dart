@@ -1,9 +1,9 @@
 // ignore_for_file: deprecated_member_use, non_constant_identifier_names
 
 import 'package:flutter/material.dart';
-import 'package:login_page/constant/constant.dart';
-import 'package:login_page/signup/signup.dart';
-import 'package:url_launcher/url_launcher.dart';
+import 'package:signinuptest/constant/constant.dart';
+import 'package:signinuptest/signup/signup.dart';
+// import 'package:url_launcher/url_launcher.dart';
 
 class Signin extends StatefulWidget {
   const Signin({Key? key}) : super(key: key);
@@ -187,13 +187,11 @@ class _HomescreenState extends State<Signin> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             GestureDetector(
-                                onTap: _launchFacebook,
                                 child: Image.asset("assets/icons/facebook.png",
                                     width: 50)),
                             Padding(
                               padding: const EdgeInsets.only(left: 20.0),
                               child: GestureDetector(
-                                onTap: _launchGoogle,
                                 child: Image.asset("assets/icons/google.png",
                                     width: 50),
                               ),
@@ -231,33 +229,33 @@ class _HomescreenState extends State<Signin> {
             )));
   }
 
-  void _launchFacebook() async {
-    const url = 'https://facebook.com/login';
-    if (!await canLaunch(url)) {
-      await launch(
-        url,
-        forceSafariVC: true,
-        forceWebView: true,
-        enableJavaScript: true,
-      );
-    } else {
-      throw 'Could not launch $url';
-    }
-  }
+  // void _launchFacebook() async {
+  //   const url = 'https://facebook.com/login';
+  //   if (!await canLaunch(url)) {
+  //     await launch(
+  //       url,
+  //       forceSafariVC: true,
+  //       forceWebView: true,
+  //       enableJavaScript: true,
+  //     );
+  //   } else {
+  //     throw 'Could not launch $url';
+  //   }
+  // }
 
-  void _launchGoogle() async {
-    const url = 'https://accounts.google.com/servicelogin';
-    if (!await canLaunch(url)) {
-      await launch(
-        url,
-        forceSafariVC: true,
-        forceWebView: true,
-        enableJavaScript: true,
-      );
-    } else {
-      throw 'Could not launch $url';
-    }
-  }
+  // void _launchGoogle() async {
+  //   const url = 'https://accounts.google.com/servicelogin';
+  //   if (!await canLaunch(url)) {
+  //     await launch(
+  //       url,
+  //       forceSafariVC: true,
+  //       forceWebView: true,
+  //       enableJavaScript: true,
+  //     );
+  //   } else {
+  //     throw 'Could not launch $url';
+  //   }
+  // }
 
   Route _SignUp() {
     return PageRouteBuilder(
